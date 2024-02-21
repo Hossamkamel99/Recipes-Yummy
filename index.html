@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/wow.js/css/libs/animate.css" />
+    <link
+      rel="icon"
+      href="./img/logo.png" />
+    <title>Yummy</title>
+  </head>
+
+  <body class=" position-relative">
+    <div id="loading">
+      <div class="d-flex justify-content-center align-items-center vh-100">
+        <i class="fa fa-spinner fa-spin text-white fa-4x"></i>
+      </div>
+    </div>
+
+    <div id="home">
+      <aside class="d-flex position-fixed top-0 z-3">
+        <div
+          id="side-menu"
+          class=" vh-100">
+          <div class="ulcontainer">
+            <ul class="itemLinks text-white mt-4">
+              <li
+                id="search"
+                class="mt-3">
+                Search
+              </li>
+              <li
+                id="category"
+                class="mt-3">
+                Categories
+              </li>
+              <li
+                id="country"
+                class="mt-3">
+                Area
+              </li>
+              <li
+                id="ingr"
+                class="mt-3">
+                Ingredients
+              </li>
+            </ul>
+          </div>
+          <div class="text-white mx-3 position-relative top-50">
+            <div class="copyright">
+              <div class="d-flex">
+                <i class="me-1 fa-brands fa-facebook"></i>
+                <i class="me-1 fa-brands fa-twitter"></i>
+                <i class="me-1 fa-solid fa-globe"></i>
+              </div>
+              <p>Copyright Â© 2019 All Rights Reserved.</p>
+              <div class="credits">
+                By
+                <a href="https://www.instagram.com/hossamkamel99/" target="_blank" rel="noopener noreferrer">Hossam Kamel</a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          id="side-bar"
+          class="bg-white vh-100 d-flex flex-column justify-content-between align-items-center py-3">
+          <img
+            src="./img/logo.png"
+            alt="logo"
+            class="w-75 bg-white">
+          <div class="toggleBtn bg-white">
+            <i class="toggBtn fa-solid bg-white fa-bars text-black fa-2x"></i>
+          </div>
+          <div class="d-flex flex-column bg-white">
+            <i class="fa-solid fa-globe bg-white"></i>
+            <i class="fa-solid fa-share-alt bg-white"></i>
+          </div>
+        </div>
+      </aside>
+      <p class="text-center text-white start-quote">
+        "Embark on a culinary journey with flavors that ignite your senses and
+        recipes that inspire your creativity."
+      </p>
+      <div class="container showContent">
+        <div class="row m-5 g-4 meals"></div>
+      </div>
+      <div></div>
+    </div>
+
+    <script src="./node_modules/wow.js/dist/wow.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
