@@ -1,117 +1,115 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
-  body {
-    background-color: #242424;
-  }
+body {
+  background-color: #242424;
+}
 
-  img {
-    width: 100%;
-  }
+img {
+  width: 100%;
+}
 
-  #side-bar {
-    width: 50px;
+#side-bar {
+  width: 50px;
+}
 
-  }
+.showContent {
+  left: 20px;
+}
 
-  .showContent {
-    left: 20px;
-  }
+#side-menu {
+  width: 250px;
+  display: none;
+  background-color: #242424;
+}
 
-  #side-menu {
-    width: 250px;
-    display: none;
-    background-color: #242424;
-  }
+ul {
+  list-style-type: none;
+}
 
-  ul {
-    list-style-type: none;
-  }
+ul li:hover,
+i:hover {
+  cursor: pointer;
+}
 
-  ul li:hover,
-  i:hover {
-    cursor: pointer;
-  }
+.copyright {
+  position: absolute;
+}
 
-  .copyright {
-    position: absolute;
-  }
+.main-item {
+  overflow: hidden;
+  color: #753a3a;
+  opacity: 0.8;
+}
 
-  .main-item {
-    overflow: hidden;
-    color: #753a3a;
-    opacity: 0.8;
-  }
+.main-item img {
+  border-radius: 10%;
+  overflow: hidden;
+}
 
-  .main-item img {
-    border-radius: 10%;
-    overflow: hidden;
-  }
+#home {
+  background-color: #242424;
+}
 
-  #home {
-    background-color: #242424;
-  }
+.meals picture .layer {
+  width: 100%;
+  height: 100%;
+  padding: 0.9375rem;
+  background-color: rgba(36, 36, 36, 0.59);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  transition: top 400ms;
+}
 
-  .meals picture .layer {
-    width: 100%;
-    height: 100%;
-    padding: 0.9375rem;
-    background-color: rgba(36, 36, 36, 0.59);
-    position: absolute;
-    top: 100%;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    transition: top 400ms;
-  }
+.clip,
+.layer h3 {
+  -webkit-background-clip: text;
+  background-clip: text;
+}
 
-  .clip,
-  .layer h3 {
-    -webkit-background-clip: text;
-    background-clip: text;
-  }
+.main-item:hover .layer {
+  top: 0;
+}
 
-  .main-item:hover .layer {
-    top: 0;
-  }
+.itemLinks {
+  position: absolute;
+  bottom: -200px;
+  transition: bottom 0.9s ease-in-out;
+}
 
-  .itemLinks {
-    position: absolute;
-    bottom: -200px;
-    transition: bottom 0.9s ease-in-out;
-  }
+.linkshow {
+  bottom: 0px;
+  position: absolute;
+}
 
-  .linkshow {
-    bottom: 0px;
-    position: absolute;
-  }
+.ulcontainer {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+}
 
-  .ulcontainer {
-    position: relative;
-    width: 250px;
-    height: 250px;
-    overflow: hidden;
-  }
+.mealimg img {
+  border-radius: 10px;
+}
 
-  .mealimg img {
-    border-radius: 10px;
-  }
+.tag {
+  display: inline-block;
+}
 
-  .tag {
-    display: inline-block;
-  }
-
-  .start-quote {
-    font-family: "Nothing You Could Do", cursive;
-    font-weight: 400;
-    font-size: 3em;
-    padding: 10px 80px;
-  }
-
+.start-quote {
+  font-family: "Nothing You Could Do", cursive;
+  font-weight: 400;
+  font-size: 3em;
+  padding: 10px 80px;
+}
