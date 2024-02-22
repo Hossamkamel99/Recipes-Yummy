@@ -122,11 +122,10 @@ i:hover {
     font-size: 1em;
     padding: 10px 80px;
   }
-  .mealimg{
-    width:80%;
+  .mealimg {
+    width: 80%;
   }
-  .meal{
+  .meal {
     flex-wrap: wrap;
   }
 }
-
