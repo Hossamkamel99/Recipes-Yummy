@@ -9,6 +9,7 @@ $(window).ready(() => {
         let searchby = "";
         fetchMeals(searchby, typeOfFilter);
     });
+    backHome();
 });
 
 // *SIDEBAR
@@ -111,10 +112,10 @@ const displaySingleMeal = () => {
         <p class="tag btn btn-light">${tags}</p>`;
     }
     let meal = `
-    <div class="container my-4 d-flex">
-        <div class="mealimg me-2">
+    <div class="container my-4 d-flex meal justify-content-center">
+        <div class="mealimg me-2 ">
             <img src="${singleMeal.strMealThumb}" alt="${singleMeal.strMeal}">
-            <p class="text-white fa-4x">${singleMeal.strMeal}</p>
+            <p class="text-white text-center fa-4x">${singleMeal.strMeal}</p>
         </div>
         <div class="container z-2 overflow-hidden">
             <div class="details text-white">
@@ -128,7 +129,7 @@ const displaySingleMeal = () => {
                 ${generateIngredientsList(singleMeal)}
                 </ul>
                 ${tagString}
-                <p class="fa-2x">Links :</p>
+                <p class="fa-2x d-flex flex-wrap">Links :</p>
                 <a href="${singleMeal.strSource
         }" class="btn btn-success" target="_blank">Source</a>
                 <a href="${singleMeal.strYoutube

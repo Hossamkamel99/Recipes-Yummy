@@ -43,7 +43,7 @@
       href="./style.css" />
     <link
       rel="stylesheet"
-      href="./node_modules/wow.js/css/libs/animate.css" />
+      href="./wow.js/css/libs/animate.css" />
     <link
       rel="icon"
       href="./img/logo.png" />
@@ -117,22 +117,21 @@
             <i class="toggBtn fa-solid bg-white fa-bars text-black fa-2x"></i>
           </div>
           <div class="d-flex flex-column bg-white">
-            <i class="fa-solid fa-globe bg-white"></i>
-            <i class="fa-solid fa-share-alt bg-white"></i>
+            <i id="backhome" href="#home" class="fa-solid fa-arrow-left"></i>
           </div>
         </div>
       </aside>
-      <p class="text-center text-white start-quote">
-        "Embark on a culinary journey with flavors that ignite your senses and
-        recipes that inspire your creativity."
-      </p>
-      <div class="container showContent">
+
+      <div class="container showContent position-relative">
+        <p class="text-center text-white start-quote">
+          "Embark on a culinary journey with flavors that ignite your senses and
+          recipes that inspire your creativity."  -..GBT 2024
+        </p>
         <div class="row m-5 g-4 meals"></div>
       </div>
     </div>
-    <script src="./node_modules/wow.js/dist/wow.min.js"></script>
-    <!-- <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script> -->
 
+    <script src="./wow.js/dist/wow.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

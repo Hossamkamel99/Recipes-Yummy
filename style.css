@@ -43,6 +43,7 @@ i:hover {
   overflow: hidden;
   color: #753a3a;
   opacity: 0.8;
+  cursor: pointer;
 }
 
 .main-item img {
@@ -113,3 +114,19 @@ i:hover {
   font-size: 3em;
   padding: 10px 80px;
 }
+
+@media only screen and (max-width: 768px) {
+  .start-quote {
+    font-family: "Nothing You Could Do", cursive;
+    font-weight: 400;
+    font-size: 1em;
+    padding: 10px 80px;
+  }
+  .mealimg{
+    width:80%;
+  }
+  .meal{
+    flex-wrap: wrap;
+  }
+}
+
